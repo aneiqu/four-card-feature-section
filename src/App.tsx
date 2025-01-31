@@ -16,47 +16,55 @@ function App() {
           that your project is successful
         </p>
       </div>
-      <div className='grid grid-cols-1 grid-rows-4 gap-6 sm:grid-rows-2 sm:grid-cols-3 sm:gap-[1.875rem]'>
-        <div className='flex p-7 bg-white rounded-lg border-t-8 border-cyan drop-shadow-xl h-fit sm:row-span-2'>
-          <div>
-            <p className='font-semibold text-xl'>Supervisor</p>
-            <p className='font-normal text-sm opacity-50'>
-              Monitors activity to identify project roadblocks
-            </p>
-            <div className='flex justify-end mt-8 sm:mt-10'>
+      <div className='grid grid-cols-1 grid-rows-4 gap-6 sm:grid-rows-2 sm:grid-cols-3 sm:gap-[1.875rem] sm:items-center'>
+        <div className='p-7 bg-white rounded-lg border-t-8 border-cyan drop-shadow-xl sm:row-span-2'>
+          <div className='flex flex-col justify-between h-full'>
+            <div>
+              <p className='font-semibold text-xl'>Supervisor</p>
+              <p className='font-normal text-sm opacity-50'>
+                Monitors activity to identify project roadblocks
+              </p>
+            </div>
+            <div className='flex justify-end'>
               <img src={supervisorIcon} />
             </div>
           </div>
         </div>
         <div className='p-7 bg-white rounded-lg border-t-8 border-red drop-shadow-xl'>
-          <div>
-            <p className='font-semibold text-xl'>Team Builder</p>
-            <p className='font-normal text-sm opacity-50'>
-              Scans our talent network to create the optimal team for your project
-            </p>
-            <div className='flex justify-end mt-8 sm:mt-10'>
+          <div className='flex flex-col justify-between h-full'>
+            <div>
+              <p className='font-semibold text-xl'>Team Builder</p>
+              <p className='font-normal text-sm opacity-50'>
+                Scans our talent network to create the optimal team for your project
+              </p>
+            </div>
+            <div className='flex justify-end'>
               <img src={teamBuilderIcon} />
             </div>
           </div>
         </div>
         <div className='p-7 bg-white rounded-lg border-t-8 border-orange drop-shadow-xl sm:row-start-2 sm:col-start-2'>
-          <div>
-            <p className='font-semibold text-xl'>Karma</p>
-            <p className='font-normal text-sm opacity-50'>
-              Regularly evaluates our talent to ensure quality
-            </p>
-            <div className='flex justify-end mt-8 sm:mt-10'>
+          <div className='flex flex-col justify-between h-full'>
+            <div>
+              <p className='font-semibold text-xl'>Karma</p>
+              <p className='font-normal text-sm opacity-50'>
+                Regularly evaluates our talent to ensure quality
+              </p>
+            </div>
+            <div className='flex justify-end'>
               <img src={karmaIcon} />
             </div>
           </div>
         </div>
         <div className='flex p-7 h-fit bg-white rounded-lg border-t-8 border-blue drop-shadow-xl sm:row-span-2 sm:col-start-3'>
-          <div>
-            <p className='font-semibold text-xl'>Calculator</p>
-            <p className='font-normal text-sm opacity-50'>
-              Uses data from past projects to provide better delivery estimates
-            </p>
-            <div className='flex justify-end mt-8 sm:mt-10'>
+          <div className='flex flex-col justify-between h-full'>
+            <div>
+              <p className='font-semibold text-xl'>Calculator</p>
+              <p className='font-normal text-sm opacity-50'>
+                Uses data from past projects to provide better delivery estimates
+              </p>
+            </div>
+            <div className='flex justify-end'>
               <img src={calculatorIcon} />
             </div>
           </div>
